@@ -16,3 +16,34 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 65px;
+  border: 1px solid rgb(141, 25, 25);
+}
+.value {
+  color: rgb(141, 25, 25);
+  font-size: 32px;
+}
+.label {
+  font-size: 16px;
+}
+.btn {
+  font-size: 14px;
+  line-height: 1.29;
+  font-weight: 400;
+  width: 65px;
+  min-height: 18px;
+  margin-left: 14px;
+  color: black;
+  background-color: burlywood;
+  border: 1px solid black;
+  cursor: pointer;
+}
